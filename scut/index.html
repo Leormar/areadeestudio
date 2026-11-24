@@ -73,7 +73,7 @@ td small{display:block;color:var(--muted);font-size:13px}
 .strip span{font-size:14px;color:var(--muted)}
 .strip .ok b{color:var(--fluo)}.strip .wa b{color:var(--amber)}
 /* gallery */
-.gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block;background:#e9edf3}
 /* pearls */
 ol.steps{list-style:none;padding:0;margin:18px 0;counter-reset:s}
@@ -131,8 +131,8 @@ footer{border-top:1px solid var(--line);padding:26px 28px;text-align:center;font
     </div>
   </div>
   <figure class="photo">
-    <img src="https://www.ncbi.nlm.nih.gov/books/NBK574509/bin/BK__3.jpg" alt="Lámpara de hendidura: infiltrado estromal anterior circular de 2 por 2 mm con hipopión de 2 mm" loading="eager" referrerpolicy="no-referrer">
-    <figcaption>Queratitis bacteriana tras cuerpo extraño: infiltrado estromal de 2 × 2 mm, edema e hipopión de 2 mm. Foto: Dr. Bharat Gurnani, en Gurnani B, Kaur K. <i>Bacterial Keratitis</i>. StatPearls, NCBI Bookshelf. Licencia CC BY-NC-ND 4.0.</figcaption>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Corneal_Ulcer.png/1280px-Corneal_Ulcer.png" alt="Úlcera corneal secundaria a queratitis bacteriana vista con lámpara de hendidura" loading="eager">
+    <figcaption>Úlcera corneal por queratitis bacteriana, teñida con fluoresceína bajo luz azul cobalto. Foto: Yoanmb, <a href="https://commons.wikimedia.org/wiki/File:Corneal_Ulcer.png" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0.</figcaption>
   </figure>
 </header>
 
@@ -293,15 +293,19 @@ footer{border-top:1px solid var(--line);padding:26px 28px;text-align:center;font
 
 <section id="imagenes">
   <h2>Imágenes clínicas</h2>
-  <p class="lede">Los dos extremos del espectro: la úlcera que responde y la que perfora. Este último escenario quedó fuera del SCUT.</p>
+  <p class="lede">Del defecto epitelial al hipopión y la perforación. El último escenario quedó fuera del SCUT.</p>
   <div class="gallery">
     <figure class="photo" style="margin:0">
-      <img src="https://www.ncbi.nlm.nih.gov/books/NBK574509/bin/BK__1.jpg" alt="Lámpara de hendidura: defecto epitelial de 5 por 5 mm con infiltrado estromal medio y adelgazamiento" loading="lazy" referrerpolicy="no-referrer">
-      <figcaption>Defecto epitelial de 5 × 5 mm con infiltrado estromal medio y adelgazamiento. Foto: Dr. Bharat Gurnani, StatPearls (CC BY-NC-ND 4.0).</figcaption>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fluorescein-Stained_Central_Corneal_Epithelial_Defect_in_Infective_Keratitis.jpg/960px-Fluorescein-Stained_Central_Corneal_Epithelial_Defect_in_Infective_Keratitis.jpg" alt="Defecto epitelial central teñido con fluoresceína en queratitis infecciosa" loading="lazy">
+      <figcaption>Defecto epitelial central con fluoresceína: lo que se vigila semana a semana durante el esteroide. Autor: MohdHaneef01. Foto: <a href="https://commons.wikimedia.org/wiki/File:Fluorescein-Stained_Central_Corneal_Epithelial_Defect_in_Infective_Keratitis.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY 4.0.</figcaption>
     </figure>
     <figure class="photo" style="margin:0">
-      <img src="https://www.ncbi.nlm.nih.gov/books/NBK574509/bin/BK__2.jpg" alt="Lámpara de hendidura: fusión corneal total con perforación y estafiloma anterior por Pseudomonas" loading="lazy" referrerpolicy="no-referrer">
-      <figcaption>Fusión corneal total con perforación y estafiloma anterior por <i>Pseudomonas</i>. Foto: Dr. Bharat Gurnani, StatPearls (CC BY-NC-ND 4.0).</figcaption>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hypopyon_1.jpg/1280px-Hypopyon_1.jpg" alt="Hipopión en cámara anterior visto con lámpara de hendidura" loading="lazy">
+      <figcaption>Hipopión: presente en más de la mitad de los pacientes del SCUT (260 de 500). Autor: Imrankabirhossain. Foto: <a href="https://commons.wikimedia.org/wiki/File:Hypopyon_1.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0.</figcaption>
+    </figure>
+    <figure class="photo" style="margin:0">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/CornealUlcerWithRupture.jpg/1280px-CornealUlcerWithRupture.jpg" alt="Úlcera corneal infectada con perforación" loading="lazy">
+      <figcaption>Úlcera infectada con perforación: escenario excluido del SCUT. Autor: James Heilman, MD. Foto: <a href="https://commons.wikimedia.org/wiki/File:CornealUlcerWithRupture.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0.</figcaption>
     </figure>
   </div>
 </section>
@@ -353,7 +357,7 @@ footer{border-top:1px solid var(--line);padding:26px 28px;text-align:center;font
     <li>Herretes S, Wang X, Reyes JMG. Topical corticosteroids as adjunctive therapy for bacterial keratitis. <i>Cochrane Database Syst Rev</i>. 2014;CD005430. <a href="https://www.cochrane.org/evidence/CD005430_corticosteroid-eye-drops-used-addition-standard-antibiotic-therapy-treatment-bacterial-keratitis" target="_blank" rel="noopener">Cochrane</a></li>
     <li>Prajna NV, Lalitha P, et al. Steroids and Cross-Linking for Ulcer Treatment: the SCUT II randomized clinical trial. <i>JAMA Ophthalmol</i>. 2025;143(9):723-730. <a href="https://clinicaltrials.gov/study/NCT04097730" target="_blank" rel="noopener">NCT04097730</a></li>
     <li>Prajna NV, et al. SCUT II: secondary 12-month clinical outcomes. <i>JAMA Ophthalmol</i>. 2026. <a href="https://www.reviewofoptometry.com/article/steroids-cxl-show-no-added-benefit-for-bacterial-keratitis-at-12-months" target="_blank" rel="noopener">Reseña</a></li>
-    <li>Imágenes clínicas: Gurnani B, Kaur K. Bacterial Keratitis. StatPearls, NCBI Bookshelf. <a href="https://www.ncbi.nlm.nih.gov/books/NBK574509/" target="_blank" rel="noopener">NBK574509</a>. CC BY-NC-ND 4.0, sin modificaciones.</li>
+    <li>Imágenes clínicas: Wikimedia Commons (Yoanmb; MohdHaneef01; Imrankabirhossain; James Heilman, MD), licencias CC BY 4.0 y CC BY-SA 4.0. Figuras 1 a 4: elaboración propia con datos publicados.</li>
   </ol>
 </section>
 </main>
