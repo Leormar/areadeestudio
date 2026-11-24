@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Queratitis fúngica | Complicaciones de LC</title>
+<meta name="description" content="Infiltrado gris blanquecino de bordes plumosos, lesiones satélite e hipopión frecuente. Fusarium, Aspergillus y Candida.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFCFD; --panel:#FFFFFF; --ink:#0E2440; --muted:#5A6B85; --line:#D9E0EA;
+  --cobalt:#2846A8; --cobalt-wash:#EEF1FA; --fluo:#5E9E1E; --fluo-wash:#EEF6E6;
+  --amber:#B4560B; --amber-wash:#FBF1E7;
+  --serif:"Newsreader",Georgia,serif; --sans:"IBM Plex Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--sans)}
+a{color:var(--cobalt)}
+a:focus-visible,button:focus-visible,summary:focus-visible,.fc:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px}
+.bar{border-bottom:1px solid var(--line);background:#fff}
+.bar-in{max-width:1200px;margin:0 auto;padding:14px 28px;display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--muted)}
+.bar a{text-decoration:none;font-weight:500;display:flex;align-items:center;gap:8px}
+/* hero */
+.hero{max-width:1200px;margin:0 auto;padding:56px 28px 40px;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.cite{font-size:14px;color:var(--muted);margin:0 0 18px}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(34px,4.6vw,56px);line-height:1.06;letter-spacing:-.01em;margin:0 0 22px}
+.verdict{border-left:4px solid var(--cobalt);padding:4px 0 4px 20px;font-size:18px;line-height:1.55;max-width:60ch}
+.verdict b{font-weight:600}
+.meta{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:26px;font-size:14px;color:var(--muted)}
+.meta span b{display:block;font-family:var(--serif);font-size:28px;color:var(--ink);font-weight:600;line-height:1.1}
+.photo{margin:0;position:relative}
+.photo img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block;background:#e9edf3}
+.photo::before{content:"";position:absolute;left:-14px;top:8%;bottom:8%;width:3px;background:var(--cobalt);border-radius:2px}
+figcaption{font-size:13px;color:var(--muted);margin-top:10px;line-height:1.5}
+/* layout */
+.wrap{max-width:1200px;margin:0 auto;padding:0 28px 80px;display:grid;grid-template-columns:220px 1fr;gap:56px}
+nav.toc{position:sticky;top:24px;align-self:start;font-size:14px;padding-top:8px}
+nav.toc p{color:var(--muted);margin:0 0 10px;font-weight:500}
+nav.toc a{display:block;text-decoration:none;color:var(--muted);padding:6px 0 6px 14px;border-left:2px solid var(--line)}
+nav.toc a:hover,nav.toc a.on{color:var(--ink);border-left-color:var(--cobalt)}
+main{min-width:0;max-width:860px}
+section{padding:48px 0;border-top:1px solid var(--line)}
+section:first-child{border-top:0;padding-top:8px}
+h2{font-family:var(--serif);font-weight:600;font-size:32px;line-height:1.15;margin:0 0 8px}
+.lede{color:var(--muted);margin:0 0 26px;max-width:68ch}
+h3{font-size:17px;font-weight:600;margin:28px 0 10px}
+p{max-width:72ch}
+.fig{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:24px;margin:18px 0}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{margin-top:14px}
+video{width:100%;border-radius:8px;display:block;background:#e9edf3;border:1px solid var(--line)}
+/* pico */
+dl.pico{display:grid;grid-template-columns:160px 1fr;margin:0;border-top:1px solid var(--line)}
+dl.pico dt,dl.pico dd{margin:0;padding:14px 0;border-bottom:1px solid var(--line)}
+dl.pico dt{font-weight:600;color:var(--cobalt)}
+/* tables */
+.tbl{overflow-x:auto;margin:18px 0}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{font-weight:600;font-size:13.5px;color:var(--muted);text-align:left;border-bottom:2px solid var(--ink);padding:10px 12px 10px 0}
+td{border-bottom:1px solid var(--line);padding:12px 12px 12px 0;vertical-align:top}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.p-ns{color:var(--muted)}.p-good{color:var(--fluo);font-weight:600}.p-warn{color:var(--amber);font-weight:600}
+td small{display:block;color:var(--muted);font-size:13px}
+/* safety strip */
+.strip{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px;background:#fff;margin:18px 0}
+.strip div{padding:20px 22px;border-left:1px solid var(--line)}
+.strip div:first-child{border-left:0}
+.strip b{display:block;font-family:var(--serif);font-size:34px;font-weight:600;line-height:1.1}
+.strip span{font-size:14px;color:var(--muted)}
+.strip .ok b{color:var(--fluo)}.strip .wa b{color:var(--amber)}
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;display:block;background:#e9edf3}
+/* pearls */
+ol.steps{list-style:none;padding:0;margin:18px 0;counter-reset:s}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+ol.steps li::before{content:counter(s);font-family:var(--serif);font-size:26px;font-weight:600;color:var(--cobalt);line-height:1}
+.note{background:var(--amber-wash);border-radius:6px;padding:16px 20px;color:#6b3407;font-size:15px;max-width:72ch}
+.synth{background:var(--cobalt-wash);border-radius:6px;padding:20px 22px;font-size:16.5px;max-width:72ch}
+ul.crit{padding-left:20px}ul.crit li{margin:8px 0}
+/* flashcards */
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.fc{perspective:1000px;min-height:170px;cursor:pointer;border:0;padding:0;background:none;text-align:left;font:inherit;color:inherit}
+.fc .in{position:relative;width:100%;height:100%;min-height:170px;transition:transform .5s;transform-style:preserve-3d}
+.fc[aria-pressed="true"] .in{transform:rotateY(180deg)}
+.fc .f,.fc .b{position:absolute;inset:0;backface-visibility:hidden;border-radius:8px;padding:20px 22px;display:flex;flex-direction:column;justify-content:center}
+.fc .f{background:#fff;border:1px solid var(--line)}
+.fc .f small{color:var(--cobalt);font-weight:600;font-size:13px;margin-bottom:6px}
+.fc .f q{font-family:var(--serif);font-size:20px;line-height:1.3;quotes:none}
+.fc .b{background:var(--ink);color:#fff;transform:rotateY(180deg);font-size:15.5px}
+ol.tl{list-style:none;margin:0;padding:0;position:relative}
+ol.tl::before{content:"";position:absolute;left:62px;top:8px;bottom:8px;width:2px;background:var(--line)}
+ol.tl li{display:grid;grid-template-columns:52px 1fr;gap:28px;padding:10px 0;position:relative}
+ol.tl li::after{content:"";position:absolute;left:57px;top:17px;width:12px;height:12px;border-radius:50%;background:var(--muted);box-shadow:0 0 0 4px #fff}
+ol.tl li.co::after{background:var(--cobalt)}ol.tl li.fl::after{background:var(--fluo)}ol.tl li.am::after{background:var(--amber)}
+ol.tl .y{font-variant-numeric:tabular-nums;color:var(--muted);font-weight:500;padding-top:2px}
+ol.tl b{font-weight:600}ol.tl p{margin:2px 0 0;color:var(--muted);font-size:15px}
+.refs{font-size:14px;color:var(--muted);padding-left:20px}
+.refs li{margin:6px 0}
+footer{border-top:1px solid var(--line);padding:26px 28px;text-align:center;font-size:13px;color:var(--muted)}
+@media(max-width:960px){
+  .hero{grid-template-columns:1fr;gap:32px;padding-top:36px}
+  .wrap{grid-template-columns:1fr}
+  nav.toc{display:none}
+  .strip{grid-template-columns:1fr}.strip div{border-left:0;border-top:1px solid var(--line)}.strip div:first-child{border-top:0}
+  .gallery,.cards{grid-template-columns:1fr}
+  dl.pico{grid-template-columns:1fr}dl.pico dt{border-bottom:0;padding-bottom:0}
+}
+@media print{nav.toc,.bar,video{display:none}.wrap{grid-template-columns:1fr}.fc .b{position:static;transform:none;margin-top:8px}.fc .in{transform:none!important}.fc .f{position:static}}
+
+.fc{display:block;width:100%}.fc .in{display:block}
+.chip{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;padding:6px 12px;border-radius:999px}
+.chip::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.st-confirma{background:var(--fluo-wash);color:#3f6e12}
+.st-actualiza{background:var(--cobalt-wash);color:var(--cobalt)}
+.st-cambia{background:var(--amber-wash);color:var(--amber)}
+.panel{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px}
+.panel .chip{margin-bottom:18px}
+.nums{display:grid;gap:16px}
+.nums div{border-top:1px solid var(--line);padding-top:12px}
+.nums b{display:block;font-family:var(--serif);font-size:32px;font-weight:600;line-height:1.1;color:var(--ink)}
+.nums span{font-size:14px;color:var(--muted)}
+ul.was{padding-left:20px;max-width:72ch}ul.was li{margin:8px 0}
+.pager{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:24px;margin-top:8px;font-size:15px}
+.pager a{text-decoration:none;max-width:45%}.pager small{display:block;color:var(--muted)}
+.grp{margin:34px 0 10px;font-family:var(--serif);font-size:24px;font-weight:600}
+.list{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:1fr auto;gap:8px 24px;padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}
+.row:hover h3{color:var(--cobalt)}
+.row h3{margin:0;font-size:19px;font-weight:600}
+.row p{margin:4px 0 0;color:var(--muted);font-size:15px;grid-column:1/-1}
+.legend{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 0}
+.hero.mod{grid-template-columns:1.2fr .8fr}
+@media(max-width:960px){.hero.mod{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="bar"><div class="bar-in"><a href="/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Área de Estudio</a><span><a href="/complicaciones-lc/" style="font-weight:400">Complicaciones de LC</a> · Infecciosas</span></div></div>
+<header class="hero">
+  <div>
+    <p class="cite">Conversatorio de complicaciones de lentes de contacto · evidencia revisada a noviembre de 2026</p>
+    <h1>Queratitis fúngica</h1>
+    <p class="verdict">La lista de antifúngicos de la presentación necesita un orden: los ensayos MUTT mostraron que la natamicina es mejor que el voriconazol en Fusarium y que el voriconazol oral no agrega beneficio.</p>
+  </div>
+  <aside class="panel" aria-label="Estado de la evidencia">
+    <span class="chip st-actualiza">La evidencia actualiza</span>
+    <div class="nums"><div><b>−0,41</b><span>logMAR a favor de natamicina en Fusarium</span></div><div><b>OR 0,06</b><span>de perforación con natamicina en Fusarium</span></div><div><b>4,8%</b><span>de las queratitis por LC son fúngicas (presentación)</span></div></div>
+  </aside>
+</header>
+<div class="wrap">
+<nav class="toc" aria-label="Contenido"><p>En esta tarjeta</p>
+<a href="#presentacion">Lo que decía la presentación</a><a href="#evidencia">Evidencia nueva</a><a href="#consulta">En la consulta</a><a href="#repaso">Autoevaluación</a><a href="#referencias">Referencias</a>
+<p style="margin-top:22px">Otras tarjetas</p><a href="/complicaciones-lc/">Ver todas</a></nav>
+<main>
+<section id="presentacion"><h2>Lo que decía la presentación</h2><p class="lede">Infiltrado gris blanquecino de bordes plumosos, lesiones satélite e hipopión frecuente. Fusarium, Aspergillus y Candida.</p>
+<ul class="was"><li>Mayoría de las queratitis en India y Nepal; 21% de los casos con uso de LC en algunas series.</li><li>Antifúngicos tópicos: natamicina 5%, anfotericina B 0,15–0,30%, voriconazol 1% y miconazol 1%.</li><li>Tratamiento sistémico en infiltración profunda.</li><li>Cirugía en casos refractarios, del desbridamiento a la queratoplastia.</li></ul></section>
+<section id="evidencia"><h2>Evidencia nueva</h2><p class="lede">Publicaciones posteriores a la presentación y qué cambian en la práctica.</p>
+<div class="tbl"><table><thead><tr><th>Estudio</th><th>Hallazgo</th><th>Qué implica</th></tr></thead><tbody>
+<tr><td>MUTT I<small>JAMA Ophthalmol 2013;131(4)</small></td><td>323 pacientes con queratitis por hongos filamentosos. Natamicina superior a voriconazol, sobre todo en Fusarium (−0,41 logMAR; OR de perforación 0,06).</td><td>Natamicina de primera línea en hongos filamentosos.</td></tr><tr><td>MUTT II<small>JAMA Ophthalmol 2016</small></td><td>Agregar voriconazol oral al tratamiento tópico no dio beneficio en úlceras fúngicas avanzadas.</td><td>No usar voriconazol oral de rutina.</td></tr><tr><td>Sensibilidad in vitro (MUTT)<small>Am J Ophthalmol 2014</small></td><td>Fusarium tuvo las CIM más altas a voriconazol; A. flavus, las más altas a natamicina.</td><td>Considerar el género si hay cultivo.</td></tr>
+</tbody></table></div></section>
+<section id="consulta"><h2>En la consulta</h2>
+<ul class="was"><li>No usar voriconazol en monoterapia en Fusarium.</li><li>Pensar en hongos ante trauma vegetal, uso previo de esteroides o mala respuesta al antibiótico.</li><li>El hipopión puede ser estéril al inicio; no tomarlo como signo de bacteria.</li></ul></section>
+<section id="repaso"><h2>Autoevaluación</h2><p class="lede">Toca cada tarjeta para ver la respuesta.</p><div class="cards">
+<button class="fc" aria-pressed="false"><span class="in"><span class="f"><small>Pregunta 1</small><q>¿Qué antifúngico es de primera línea en Fusarium?</q></span><span class="b">Natamicina 5% (MUTT I).</span></span></button><button class="fc" aria-pressed="false"><span class="in"><span class="f"><small>Pregunta 2</small><q>¿Sirve agregar voriconazol oral?</q></span><span class="b">No: MUTT II no mostró beneficio.</span></span></button><button class="fc" aria-pressed="false"><span class="in"><span class="f"><small>Pregunta 3</small><q>¿Qué signos sugieren hongo?</q></span><span class="b">Bordes plumosos, lesiones satélite e infiltrado gris seco.</span></span></button>
+</div></section>
+<section id="referencias"><h2>Referencias</h2><ol class="refs">
+<li>Prajna NV, et al. The Mycotic Ulcer Treatment Trial: a randomized trial comparing natamycin vs voriconazole. JAMA Ophthalmol. 2013;131(4):422-429. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3769211" target="_blank" rel="noopener">Enlace</a></li><li>Prajna NV, et al. Effect of oral voriconazole on fungal keratitis in the Mycotic Ulcer Treatment Trial II. JAMA Ophthalmol. 2016;134(12):1365-1372. <a href="https://eyewiki.aao.org/Mycotic_Ulcer_Treatment_Trial_1_%26_2" target="_blank" rel="noopener">Enlace</a></li><li>Lalitha P, et al. In vitro susceptibility of filamentous fungal isolates from a corneal ulcer clinical trial. Am J Ophthalmol. 2014. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3896887" target="_blank" rel="noopener">Enlace</a></li>
+<li>Orjuela L. Conversatorio: complicaciones al uso de los lentes de contacto (presentación base).</li></ol>
+<nav class="pager" aria-label="Tarjetas"><a href="/complicaciones-lc/acanthamoeba/"><small>Anterior</small>Queratitis por Acanthamoeba</a><a href="/complicaciones-lc/conjuntivitis-papilar/" style="text-align:right"><small>Siguiente</small>Conjuntivitis papilar por LC (CPG)</a></nav>
+</section>
+</main></div>
+<footer>Área de Estudio, Lentes Especializados. Material docente para residentes; consulte las fuentes originales para decisiones clínicas.</footer>
+<script>
+document.querySelectorAll('.fc').forEach(b=>b.addEventListener('click',()=>b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true')));
+const links=[...document.querySelectorAll('nav.toc a')];
+if(links.length){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-40% 0px -55% 0px'});document.querySelectorAll('main section').forEach(s=>io.observe(s));}
+</script>
+</body></html>
