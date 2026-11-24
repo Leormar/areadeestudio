@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Área de Estudio · Lentes Especializados</title>
+<meta name="description" content="Tarjetas de estudio para residentes de oftalmología y optometría.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--ink:#14213d;--muted:#5b6b82;--line:#e3e8ef;--blue:#1d4e89;--blue-soft:#e8f0fa;--teal:#0f766e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 20px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(30px,5vw,44px);margin:0 0 6px}
+p.lead{color:var(--muted);margin:0 0 30px;font-size:17px}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+a.item{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;transition:box-shadow .2s,transform .2s;border-top:5px solid var(--blue)}
+a.item:hover{box-shadow:0 8px 24px rgba(20,33,61,.08);transform:translateY(-2px)}
+.cat{font-size:12px;font-weight:600;color:var(--teal);text-transform:uppercase;letter-spacing:.06em}
+a.item h2{font-size:18px;margin:8px 0 6px}
+a.item p{margin:0;color:var(--muted);font-size:14px}
+footer{margin-top:40px;font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1d4e89" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+  <h1>Área de Estudio</h1>
+  <p class="lead">Tarjetas de estudio de artículos clave para residentes de oftalmología.</p>
+  <div class="list">
+    <a class="item" href="/scut/">
+      <span class="cat">Córnea · Ensayo clínico</span>
+      <h2>SCUT: corticoides en queratitis bacteriana</h2>
+      <p>Arch Ophthalmol 2012 · ECA doble ciego, 500 pacientes. Diseño, resultados, subgrupos, limitaciones y autoevaluación.</p>
+    </a>
+  </div>
+  <footer>Lentes Especializados · Leonardo Orjuela Mariño, Optómetra</footer>
+</div>
+</body>
+</html>
