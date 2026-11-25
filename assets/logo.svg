@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Sello de Universidad PROLENS, Área de Estudio">
+  <defs>
+    <path id="top" d="M36 120a84 84 0 0 1 168 0"/>
+    <path id="bot" d="M30 120a90 90 0 0 0 180 0"/>
+  </defs>
+  <circle cx="120" cy="120" r="116" fill="#13294B"/>
+  <circle cx="120" cy="120" r="108" fill="none" stroke="#A8822E" stroke-width="2"/>
+  <circle cx="120" cy="120" r="64" fill="none" stroke="#A8822E" stroke-width="1.5"/>
+  <text font-family="EB Garamond, Garamond, Georgia, serif" font-size="16" font-weight="600" letter-spacing="2" fill="#FFFFFF"><textPath href="#top" startOffset="50%" text-anchor="middle">UNIVERSIDAD PROLENS</textPath></text>
+  <text font-family="EB Garamond, Garamond, Georgia, serif" font-size="11.5" letter-spacing="1.6" fill="#D9C08A"><textPath href="#bot" startOffset="50%" text-anchor="middle">ÁREA DE ESTUDIO · MEDELLÍN</textPath></text>
+  <circle cx="45" cy="120" r="3" fill="#A8822E"/><circle cx="195" cy="120" r="3" fill="#A8822E"/>
+  <!-- libro abierto -->
+  <path d="M84 138c12-6 24-6 36 0 12-6 24-6 36 0v16c-12-6-24-6-36 0-12-6-24-6-36 0z" fill="#FFFFFF"/>
+  <path d="M120 138v16" stroke="#13294B" stroke-width="1.5"/>
+  <!-- ojo y lente de contacto -->
+  <path d="M86 112s14-22 34-22 34 22 34 22-14 22-34 22-34-22-34-22z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="120" cy="112" r="11" fill="#A8822E"/>
+  <circle cx="120" cy="112" r="4.5" fill="#13294B"/>
+  <path d="M104 100a20 20 0 0 1 32 0" fill="none" stroke="#7FB3E0" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="120" y="174" text-anchor="middle" font-family="EB Garamond, Garamond, Georgia, serif" font-size="11" letter-spacing="2" fill="#D9C08A">MMXXVI</text>
+</svg>

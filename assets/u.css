@@ -57,3 +57,4 @@ footer.uf{background:var(--navy);color:#C9D1DF;text-align:left;border:0;padding:
 .lg{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--muted)}
 .lg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
 @media(max-width:960px){.kpis{grid-template-columns:1fr 1fr}.kpis div:nth-child(3){border-left:0}.dash-grid{grid-template-columns:1fr}}
+.uh .crest,.uf img{border-radius:50%;box-shadow:0 0 0 2px #A8822E,0 0 0 4px rgba(255,255,255,.15)}
