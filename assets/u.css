@@ -57,4 +57,13 @@ footer.uf{background:var(--navy);color:#C9D1DF;text-align:left;border:0;padding:
 .lg{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--muted)}
 .lg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
 @media(max-width:960px){.kpis{grid-template-columns:1fr 1fr}.kpis div:nth-child(3){border-left:0}.dash-grid{grid-template-columns:1fr}}
-.uh .crest,.uf img{border-radius:50%;box-shadow:0 0 0 2px #A8822E,0 0 0 4px rgba(255,255,255,.15)}
+.logo-p{display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#fff;flex:none}.logo-p img{display:block}
+.uh{background:#fff;color:var(--navy);border-bottom:1px solid var(--line)}
+.uh a{color:var(--navy)}
+.uh small{opacity:1;color:var(--muted)}
+.uh .sep{width:1px;height:40px;background:var(--line);flex:none}
+.logo-w{display:block;height:auto}
+.unav{background:var(--navy);box-shadow:none;border-bottom:3px solid var(--gold)}
+.unav a{color:#fff}
+.unav a:hover,.unav a[aria-current="page"]{color:#fff;border-bottom-color:var(--gold)}
+.logo-f{background:#fff;border-radius:4px;padding:8px 10px;display:inline-flex;flex:none}
