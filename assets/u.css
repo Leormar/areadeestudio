@@ -1,0 +1,59 @@
+/* Área de Estudio: tema académico (se carga después del CSS de cada página) */
+:root{
+  --paper:#FFFFFF; --panel:#FFFFFF; --ink:#13294B; --muted:#5B6578; --line:#DDE1E8;
+  --cobalt:#7A1F2E; --cobalt-wash:#F6ECEE; --navy:#13294B; --navy-wash:#E9EEF6; --gold:#A8822E; --mist:#F4F5F7;
+  --serif:"EB Garamond",Garamond,Georgia,serif; --sans:"Source Sans 3",system-ui,sans-serif;
+}
+body{font:17px/1.62 var(--sans);color:#1F2A3C}
+h1,h2,.grp{font-family:var(--serif);font-weight:600;color:var(--navy);letter-spacing:0}
+h1{font-size:clamp(36px,4.8vw,58px);line-height:1.04}
+h2{font-size:34px}
+.verdict{border-left-color:var(--gold);font-size:18.5px}
+.st-actualiza{background:var(--navy-wash);color:var(--navy)}
+.photo::before{background:var(--gold)}
+/* cabecera institucional */
+.bar{display:none}
+.uh{background:var(--navy);color:#fff}
+.uh-in{max-width:1200px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:16px}
+.uh a{color:#fff;text-decoration:none;display:flex;align-items:center;gap:14px}
+.uh .crest{flex:none}
+.uh b{display:block;font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.1}
+.uh small{display:block;font-size:13.5px;opacity:.82;letter-spacing:.01em}
+.unav{background:#fff;border-bottom:1px solid var(--line);box-shadow:inset 0 3px 0 var(--gold)}
+.unav-in{max-width:1200px;margin:0 auto;padding:0 28px;display:flex;gap:4px;overflow-x:auto}
+.unav a{padding:14px 14px 12px;font-size:15px;font-weight:600;color:var(--navy);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap}
+.unav a:hover,.unav a[aria-current="page"]{border-bottom-color:var(--cobalt);color:var(--cobalt)}
+.crumbs{max-width:1200px;margin:0 auto;padding:16px 28px 0;font-size:14px;color:var(--muted)}
+.crumbs a{color:var(--muted)}
+.crumbs span{margin:0 8px}
+.hero{padding-top:34px}
+.unit{display:inline-block;font-size:14px;font-weight:600;color:var(--cobalt);margin:0 0 10px}
+/* objetivos, galería, citar */
+ol.obj{margin:0;padding-left:22px;max-width:72ch}ol.obj li{margin:8px 0}
+.ugal{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.ugal figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.ugal a{display:block}
+.ugal img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--mist)}
+.ugal figcaption{padding:10px 12px 12px;margin:0;font-size:13.5px}
+.ugal figcaption b{color:var(--navy)}
+.cite-box{background:var(--mist);border-left:3px solid var(--navy);padding:16px 20px;font-size:14.5px;max-width:72ch;margin-top:22px}
+.done-btn{margin-top:18px;font:600 15px var(--sans);padding:12px 18px;border-radius:4px;border:1.5px solid var(--navy);background:#fff;color:var(--navy);cursor:pointer}
+.done-btn[aria-pressed="true"]{background:var(--navy);color:#fff}
+.done-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+footer.uf{background:var(--navy);color:#C9D1DF;text-align:left;border:0;padding:0}
+.uf-in{max-width:1200px;margin:0 auto;padding:28px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:14px}
+.uf-in b{color:#fff;font-family:var(--serif);font-size:19px;font-weight:600}
+/* panel */
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:4px;background:#fff}
+.kpis div{padding:20px 22px;border-left:1px solid var(--line)}.kpis div:first-child{border-left:0}
+.kpis b{display:block;font-family:var(--serif);font-size:40px;font-weight:600;color:var(--navy);line-height:1}
+.kpis span{font-size:14px;color:var(--muted)}
+.prog{height:8px;background:var(--mist);border-radius:4px;overflow:hidden;min-width:90px}
+.prog i{display:block;height:100%;background:var(--fluo);width:0}
+.dash-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}
+.dash-grid .fig{margin:0}
+.statbar{display:flex;height:34px;border-radius:4px;overflow:hidden;margin:12px 0}
+.statbar span{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:14px}
+.lg{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;color:var(--muted)}
+.lg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+@media(max-width:960px){.kpis{grid-template-columns:1fr 1fr}.kpis div:nth-child(3){border-left:0}.dash-grid{grid-template-columns:1fr}}

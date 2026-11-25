@@ -7,7 +7,7 @@
 <meta name="description" content="Tarjeta de estudio para residentes de oftalmología: SCUT (2012), análisis secundarios y SCUT II (2025-2026).">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=EB+Garamond:wght@500;600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#FBFCFD; --panel:#FFFFFF; --ink:#0E2440; --muted:#5A6B85; --line:#D9E0EA;
@@ -113,12 +113,12 @@ footer{border-top:1px solid var(--line);padding:26px 28px;text-align:center;font
 }
 @media print{nav.toc,.bar,video{display:none}.wrap{grid-template-columns:1fr}.fc .b{position:static;transform:none;margin-top:8px}.fc .in{transform:none!important}.fc .f{position:static}}
 </style>
+<link rel="stylesheet" href="/assets/u.css">
 </head>
 <body>
-<div class="bar"><div class="bar-in">
-  <a href="/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Área de Estudio</a>
-  <span>Residencia de Oftalmología · Córnea y superficie ocular</span>
-</div></div>
+<header class="uh"><div class="uh-in"><a href="/"><svg class="crest" width="44" height="50" viewBox="0 0 44 50" aria-hidden="true"><path d="M22 2 40 8v16c0 12-8 20-18 24C12 44 4 36 4 24V8z" fill="none" stroke="#A8822E" stroke-width="2"/><path d="M10 25s4.5-8 12-8 12 8 12 8-4.5 8-12 8-12-8-12-8z" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="22" cy="25" r="3.6" fill="#A8822E"/><path d="M14 40h16" stroke="#A8822E" stroke-width="1.5"/></svg><span><b>Área de Estudio</b><small>Formación en córnea, superficie ocular y contactología · Lentes Especializados</small></span></a></div></header>
+<nav class="unav" aria-label="Principal"><div class="unav-in"><a href="/">Inicio</a><a href="/complicaciones-lc/">Plan de estudios: complicaciones de LC</a><a href="/scut/" aria-current="page">Artículo: SCUT</a><a href="/panel/">Panel del residente</a></div></nav>
+<p class="crumbs"><a href="/">Inicio</a><span>/</span>Artículo: SCUT</p>
 
 <header class="hero">
   <div>
@@ -364,7 +364,7 @@ footer{border-top:1px solid var(--line);padding:26px 28px;text-align:center;font
 </main>
 </div>
 
-<footer>Área de Estudio, Lentes Especializados. Material docente para residentes; consulte las fuentes originales para decisiones clínicas.</footer>
+<footer class="uf"><div class="uf-in"><div><b>Área de Estudio</b><br>Material docente para residentes de oftalmología y optometría. Consulte las fuentes originales para decisiones clínicas.</div><div>Coordinación académica: Leonardo Orjuela Mariño, OD<br>Medellín, Colombia</div></div></footer>
 
 <script>
 document.querySelectorAll('.fc').forEach(b=>b.addEventListener('click',()=>b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true')));
